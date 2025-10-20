@@ -12,13 +12,19 @@
    git clone https://github.com/has2k1/ug2021
    ```
 
-3. Create and update the project environment
+3. cd into the repository
+
+   ```bash
+   cd ug2021
+   ```
+
+4. Create and update the project environment
 
    ```bash
    uv sync
    ```
 
-4. Install `ug2021` package in developer mode
+5. Install `ug2021` package in developer mode
 
    ```bash
    uv pip install -e .
