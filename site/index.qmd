@@ -38,7 +38,7 @@ dict(
 dict(
   icon="person-fill-check",
   color="light",
-  value=f"{national_statistics.valid_voters:,}"
+  value=f"{national_statistics.valid_votes:,}"
 )
 ```
 
